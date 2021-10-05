@@ -1,0 +1,2 @@
+export const URL_GET_CUSTOMERS = 'http://private-92a969-processoseletivo1.apiary-mock.com/customers'
+export const URL_PUT_CUSTOMERS = 'https://private-92a969-processoseletivo1.apiary-mock.com/customers'
