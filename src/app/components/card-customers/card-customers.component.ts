@@ -24,7 +24,6 @@ export class CardCustomersComponent implements OnChanges {
     }
 
     get value() {
-        console.log(this.filtro)
         return this.data.filter((v: any) => {
             if (v.name === null) {
                 v.name = ''
@@ -40,7 +39,6 @@ export class CardCustomersComponent implements OnChanges {
     }
 
     editCustomer(element) {
-        console.log(element)
         this.dataDefault.objectCustomer.next(element);
         this.router.navigate(['edit-customers']);
     }
